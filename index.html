@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="container">
+        <header>Registration Form</header>
+        <form id="registration-form" class="form">
+            <div class="input-box">
+            <label>Full Name</label>
+            <input type="text" id="fullName" placeholder="Enter full name" required />
+            </div>
+            <div class="input-box">
+                <label>Email Address</label>
+                <input type="text" id="email-address" placeholder="Enter Email Address" required />
+                </div>
+                <div class="input-box">
+                    <label>Phone Number</label>
+                    <input type="text" id="phone-number" placeholder="Enter Phone Number" required />
+                    </div>
+                    <div class="input-box">
+                        <label>Birth Date</label>
+                        <input type="text" id="birth-date" placeholder="Enter Birth Date" required />
+                        </div>
+                    </div>
+                    <!-- <div class="gender-box">
+                        <h3>Gender</h3>
+                        <div class="gender-option">
+                            <div class="gender">
+                                <input type="radio" id="check-male" name="gender" value="male" checked />
+                                <label for="check-male">Male</label>
+                            </div>
+                            <div class="gender">
+                                <input type="radio" id="check-female" name="gender" value="female" checked />
+                                <label for="check-female">Female</label>
+                            </div>
+                        </div>
+                    </div> -->
+               
+                    <button type="submit" onclick="text(event)">Submit</button>
+        </form>
+        <p class="copy">© Copyright 2024 by Muhammad Touqeer</p>
+    </section>
+
+    <div class="output" id="output">
+       
+    </div>
+<script src="app.js"></script>
+</body>
+</html>
